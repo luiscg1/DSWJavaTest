@@ -23,7 +23,7 @@ public class SimpleServlet extends HttpServlet {
         response.setContentType("text/html");
         int result = 1 + 2;
         String temp = ("Testing string 1 + 2 = " + result); 
-        response.getWriter().print("Hello World test!");
+        response.getWriter().print("Hello World test! " + temp);
     }
 
 }
