@@ -22,7 +22,7 @@ public class SimpleServlet extends HttpServlet {
     protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
         response.setContentType("text/html");
         int result = 3 + 3;
-        String temp = ("Testing string 3 + 3 = " + result);
+        String temp = ("Web App Running ");
         response.getWriter().print(temp);
     }
 
